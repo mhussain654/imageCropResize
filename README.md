@@ -22,7 +22,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+It's under Development, Soon will release a BETA VERSION.
+
+Make a object of imageCropingResizing as:
+img_object = imageCropingResizing::Cropimage.new(imageUrl, imgWidth, imgHeight)
+
+Now you can call the desired method as:
+# resizeImage: This method will resize the image and return you a image url
+image_url = img_object.resizeImage
+
+# cropImage: This method will crop the image and return you a image url
+image_url = img_object.cropImage
+
+# cropResizeImage: This method will crop and resize the image and return you a image url
+image_url = img_object.cropResizeImage
+
+# originalImage: This method will return you a original image url
+image_url = img_object.originalImage
 
 ## Development
 
